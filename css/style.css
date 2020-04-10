@@ -334,52 +334,71 @@ nav ul li a:hover::after {
 
 .stock-item {
     width: 50%;
-    height: 300px;
+    outline: 3px solid #fff;
+    outline-offset: -15px;
 }
 
-.stock-item p {
+/* .stock-link {
+
+} */
+
+.stock-item .stock-link {
+    display: block;
+    height: 100%;
     padding-left: 50px;
+    color: #fff;
+    transition: color .2s linear;
+}
+
+.stock-item .stock-link:hover {
+    color: #FAC300;
 }
 
 .service-grass {
-    background: url(../img/bgs/garden_tools.jpg) center center/cover no-repeat;
+    background: url(../img/bgs/stock_1.jpg) center center/cover no-repeat;
 }
 
 .special-cost {
-    background: url(../img/bgs/bush.jpg) center center/cover no-repeat;
+    background: url(../img/bgs/stock_2.jpg) center center/cover no-repeat;
 }
 
-.stock-title {
-    padding: 50px 0 10px 0;
+.stock-item .stock-link span {
+    display: block;
 }
 
-.stock-header {
-    font-family: Rubik;
+.stock-link .stock-header {
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 72px;
     line-height: 140%;
     text-transform: uppercase;
-    color: #fff;
 
     text-shadow: 0px 4px 8px rgba(51, 51, 51, 0.2), 0px 8px 16px rgba(51, 51, 51, 0.16), 0px 12px 24px rgba(51, 51, 51, 0.1), 0px 16px 32px rgba(51, 51, 51, 0.08);
+
+    padding: 40px 0 5px 0;
 }
 
-.special-cost .stock-subtitle {
-    color: #3CC846;
+.stock-link .stock-subtitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    margin-left: 5px;
+}
+
+.stock-link .stock-title {
+    font-size: 24px;
+    margin: 40px 0 40px 5px;
+    color: #333;
+}
+
+.stock-item .stock-link .stock-bullit {
+    display: inline;
+    font-size: 26px;
+    color: #fff;
     font-weight: bold;
 }
 
-.service-grass .stock-subtitle {
-    color: #14B487;
-    font-weight: bold;
-}
-
-.stock-subtitle {
-    padding-bottom: 94px;
-}
-
-.more-stocks {
+/* .more-stocks {
     padding: 0;
     margin: 0;
     position: absolute;
@@ -396,7 +415,7 @@ nav ul li a:hover::after {
     color: #fff;
 
     text-shadow: 0px 4px 8px rgba(51, 51, 51, 0.2), 0px 8px 16px rgba(51, 51, 51, 0.16), 0px 12px 24px rgba(51, 51, 51, 0.1), 0px 16px 32px rgba(51, 51, 51, 0.08);
-}
+} */
 
 .solutions {
     background: url(../img/bgs/pattern_bg.jpg) center center/cover no-repeat;
