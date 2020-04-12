@@ -47,6 +47,12 @@ form textarea {
     outline: none;
 }
 
+form input:focus,
+form button:focus,
+form textarea:focus {
+    outline: none;
+}
+
 form button {
     display: inline-block;
     padding: 12px 35px;
@@ -99,6 +105,17 @@ form button {
 .bullit {
     color: #14B487;
     font-weight: bold;
+}
+
+.inner-subheader {
+    background: url(../img/bgs/pattern.jpg) center center/cover repeat;
+    background-size: 59px 67px;
+    padding: 40px;
+    text-align: center;
+}
+
+.inner-subheader-text {
+    text-transform: uppercase;
 }
 
 /********** Шапка сайта **********/

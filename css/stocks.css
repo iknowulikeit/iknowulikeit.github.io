@@ -1,0 +1,54 @@
+header {
+    position: static;
+}
+
+.inner-stocks {
+    padding: 60px 0 40px 0;
+}
+
+.stock-row {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.stock-row-text {
+    padding: 0 40px 20px 60px;
+}
+
+.stock-row-text h2 {
+    color: #333;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.stock-row-text p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.details-lists {
+    display: flex;
+}
+
+.stock-row-text summary {
+    outline: none;
+    display: inline-block;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    color: #14B487;
+}
+
+details p {
+    margin: 12px auto;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.stock-row-text ul li {
+    font-size: 13px;
+    padding: 8px 0;
+}
+
+footer {
+    background-color: #f8f8f8;
+}
